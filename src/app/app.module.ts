@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from 'src/app/components/home/home.component';
 import { CountryInfoComponent } from 'src/app/components/country-info/country-info.component';
+import { CountrySummaryComponent } from './components/country-summary/country-summary.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    CountryInfoComponent
+    CountryInfoComponent,
+    CountrySummaryComponent
   ],
   imports: [
     BrowserModule,
